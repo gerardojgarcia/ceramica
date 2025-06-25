@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Meraki Tableware",
+    "firstImage": "/bowl-set-1.png",
+    "hoverImage": "/bowl-set-1-hover.png",
+    "price": "$74.00 USD",
+    "onSale": true,
+    "bestSeller": false
+  },
+  {
+    "id": 2,
+    "name": "Kensho Pitcher",
+    "firstImage": "/kensho-pitcher-maini.png",
+    "hoverImage": "/kensho-pitcher-hover.png",
+    "price": "$37.00 USD",
+    "onSale": false,
+    "bestSeller": false
+  },
+  {
+    "id": 3,
+    "name": "4 Asymmetric Cups",
+    "firstImage": "/cups-1-main.png",
+    "hoverImage": "/cups-1-hover.png",
+    "price": "$42.00 USD",
+    "onSale": false,
+    "bestSeller": true
+  },
+  {
+    "id": 4,
+    "name": "Sourire Rounded Plate",
+    "firstImage": "/plate-1-main.png",
+    "hoverImage": "/plate-1-hover.png",
+    "price": "$14.00 USD",
+    "onSale": false,
+    "bestSeller": true
+  }
+]

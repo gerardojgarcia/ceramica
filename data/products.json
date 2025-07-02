@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Meraki Tableware",
+    "price": "$74.00",
+    "tags": ["Tableware Sets"],
+    "images": ["/bowl-set-1.png", "/bowl-set-1-hover.png"],
+    "link": "/products/meraki-tableware"
+  },
+
+  {
+    "id": 2,
+    "name": "Kensho Pitcher",
+    "price": "$37.00",
+    "tags": ["Pitchers"],
+    "images": ["/kensho-pitcher-maini.png", "/kensho-pitcher-hover.png"],
+    "link": "/"
+  },
+  {
+    "id": 3,
+    "name": "4 Asymmetric Cups",
+    "price": "$42.00",
+    "tags": ["Cups"],
+    "images": ["/cups-1-main.png", "/cups-1-hover.png"],
+    "link": "/"
+  },
+  {
+    "id": 4,
+    "name": "Sourire Rounded Plate",
+    "price": "$14.00",
+    "tags": ["Plates"],
+    "images": ["/plate-1-main.png", "/plate-1-hover.png"],
+    "link": "/"
+  },
+  {
+    "id": 5,
+    "name": "Celeste Bowl",
+    "price": "$28.00",
+    "tags": ["Plates"],
+    "images": ["/celeste-bowl-main.png", "/celeste-bowl-hover.png"],
+    "link": "/"
+  },
+  {
+    "id": 6,
+    "name": "Terra Vase",
+    "price": "$55.00",
+    "tags": ["Tableware Sets"],
+    "images": ["/terra-vase-main.png", "/terra-vase-hover.png"],
+    "link": "/"
+  },
+  {
+    "id": 7,
+    "name": "Aurora Mug",
+    "price": "$19.00",
+    "tags": ["Cups"],
+    "images": ["/aurora-mug-main.png", "/aurora-mug-hover.png"],
+    "link": "/products/aurora-mug"
+  },
+  {
+    "id": 8,
+    "name": "Horizon Pitcher",
+    "price": "$49.00",
+    "tags": ["Pitchers"],
+    "images": ["/horizon-pitcher.png", "/horizon-pitcher-alt.png"],
+    "link": "/"
+  },
+  {
+    "id": 9,
+    "name": "Radiant Plate",
+    "price": "$22.00",
+    "tags": ["Plates"],
+    "images": ["/radiant-plate.png", "/radiant-plate-alt.png"],
+    "link": "/"
+  },
+  {
+    "id": 10,
+    "name": "Unity Set",
+    "price": "$120.00",
+    "tags": ["Tableware Sets"],
+    "images": ["/unity-tableware.png", "#"],
+    "link": "/"
+  }
+]

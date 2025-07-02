@@ -1,18 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 
-const products = [
-  { id: 1, name: 'Meraki Tableware', price: '$74.00', tags: ['Tableware Sets'], images: ['/bowl-set-1.png', 'bowl-set-1-hover.png'] },
-  { id: 2, name: 'Kensho Pitcher', price: '$37.00', tags: ['Pitchers'], images: ['/kensho-pitcher-maini.png', '/kensho-pitcher-hover.png'] },
-  { id: 3, name: '4 Asymmetric Cups', price: '$42.00', tags: ['Cups'], images: ['/cups-1-main.png', '/cups-1-hover.png'] },
-  { id: 4, name: 'Sourire Rounded Plate', price: '$14.00', tags: ['Plates'], images: ['/plate-1-main.png', '/plate-1-hover.png'] },
-  { id: 5, name: 'Celeste Bowl', price: '$28.00', tags: ['Plates'], images: ['/celeste-bowl-main.png', '/celeste-bowl-hover.png'] },
-  { id: 6, name: 'Terra Vase', price: '$55.00', tags: ['Tableware Sets'], images: ['/terra-vase-main.png', '/terra-vase-hover.png'] },
-  { id: 7, name: 'Aurora Mug', price: '$19.00', tags: ['Cups'], images: ['/aurora-mug-main.png', '/aurora-mug-hover.png'] },
-  { id: 8, name: 'Horizon Pitcher', price: '$49.00', tags: ['Pitchers'], images: ['#', '#'] },
-  { id: 9, name: 'Radiant Plate', price: '$22.00', tags: ['Plates'], images: ['#', '#'] },
-  { id: 10, name: 'Unity Set', price: '$120.00', tags: ['Tableware Sets'], images: ['#', '#'] }
-]
+import products from '~/data/products.json';
 
 const activeCategory = ref('All')
 const categories = computed(() => [
@@ -43,10 +32,10 @@ const filteredProducts = computed(() => {
             :key="cat"
             @click="activeCategory = cat"
             :class="[
-            'px-4 py-2 rounded-full border transition',
+            'px-4 py-2 rounded-full border transition cursor-pointer',
             activeCategory === cat
-              ? 'bg-light-terra text-white border-light-terra'
-              : 'bg-white text-dark border-gray-300 hover:bg-light-terra hover:text-white'
+              ? 'bg-[#F2B8A0] text-black border-light-terra'
+              : 'bg-white text-dark border-gray-300 hover:bg-[#F2B8A0] hover:text-white'
           ]"
         >
           {{ cat }}
@@ -83,6 +72,8 @@ const filteredProducts = computed(() => {
               >
                 {{ tag }}
               </span>
+
+              <NuxtLink :to="product.link">Explore</NuxtLink>
             </div>
           </div>
         </div>

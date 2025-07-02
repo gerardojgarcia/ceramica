@@ -20,7 +20,7 @@ const categories = [
         <div class="absolute inset-0 flex flex-col justify-end p-6 text-white">
           <h3 class="text-2xl font-semibold">{{ categories[0].title }}</h3>
           <p class="text-sm">From {{ categories[0].from }}</p>
-          <a href="#" class="mt-2 text-sm underline">See Products</a>
+          <a href="/shop" class="mt-2 text-sm underline">See Products</a>
         </div>
       </div>
 
@@ -36,7 +36,7 @@ const categories = [
           <div class="absolute inset-0 flex flex-col justify-end p-6 text-white">
             <h3 class="text-xl font-semibold">{{ categories[1].title }}</h3>
             <p class="text-sm">From {{ categories[1].from }}</p>
-            <a href="#" class="mt-2 text-sm underline">See Products</a>
+            <a href="/shop" class="mt-2 text-sm underline">See Products</a>
           </div>
         </div>
 
@@ -51,7 +51,7 @@ const categories = [
             <div class="absolute inset-0 flex flex-col justify-end p-4 text-white">
               <h4 class="text-lg font-semibold">{{ categories[2].title }}</h4>
               <p class="text-sm">From {{ categories[2].from }}</p>
-              <a href="#" class="mt-1 text-xs underline">See Products</a>
+              <a href="/shop" class="mt-1 text-xs underline">See Products</a>
             </div>
           </div>
           <div class="relative group overflow-hidden rounded-lg">
@@ -63,7 +63,7 @@ const categories = [
             <div class="absolute inset-0 flex flex-col justify-end p-4 text-white">
               <h4 class="text-lg font-semibold">{{ categories[3].title }}</h4>
               <p class="text-sm">From {{ categories[3].from }}</p>
-              <a href="#" class="mt-1 text-xs underline">See Products</a>
+              <a href="/shop" class="mt-1 text-xs underline">See Products</a>
             </div>
           </div>
         </div>
